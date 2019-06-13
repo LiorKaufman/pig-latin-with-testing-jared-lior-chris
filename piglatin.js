@@ -28,7 +28,7 @@ function pigLatin (sentence){
       alert("Please enter only strings")
       return "enter only strings!"
   }
-  
+
   var newArr = sentence.toLowerCase().split(" ")
   var indexNum = -1 // index num outside of the array length
 
@@ -70,3 +70,4 @@ function pigLatin (sentence){
       return  x.charAt(0).toUpperCase() + x.slice(1)
   }).join(" ")
 }
+// test
